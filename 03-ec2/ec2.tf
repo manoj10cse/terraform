@@ -13,7 +13,7 @@ resource "aws_instance" "demoo" {
 }
 
 output "public_ip" {
-    value  = aws_instance.demo.public_ip
+    value  = aws_instance.demoo.public_ip
 }
 
 
